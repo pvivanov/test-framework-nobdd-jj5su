@@ -1,6 +1,6 @@
-##Test Framework for your API
+## Test Framework for your API
 
-###Presets
+### Presets
 * install jdk8
 * install lombok plugin
 * customize lombok plugin (Build, Execution, Deployment --> Compiler --> Annotation Processors, Enable annotation processing)
