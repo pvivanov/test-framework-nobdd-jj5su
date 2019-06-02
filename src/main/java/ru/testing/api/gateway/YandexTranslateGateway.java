@@ -15,7 +15,7 @@ import ru.testing.api.entities.translate.TranslateResponse;
 public class YandexTranslateGateway {
 
     private static final String URL = "https://translate.yandex.net/api/v1.5/tr.json/translate";
-    private static final String TOKEN = ""; //TODO generate and paste your yandex token here, https://tech.yandex.ru/translate/doc/dg/concepts/api-keys-docpage/
+    private static final String TOKEN = ""; //TODO generate and insert your yandex token here, https://tech.yandex.ru/translate/doc/dg/concepts/api-keys-docpage/
 
     @SneakyThrows
     public TranslateResponse getTranslateText(String textToTranslate) {

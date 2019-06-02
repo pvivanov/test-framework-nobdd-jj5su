@@ -17,7 +17,7 @@ public class YandexTranslateTest {
 
     @ParameterizedTest
     @ValueSource(strings = { "Hello World!" })
-    @DisplayName("Перевод текста через api яндекс переводчика")
+    @DisplayName("Text translation with API yandex translator")
     public void translateText(String textToTranslate) {
         TranslateResponse translateTextResponse = translateGateway.getTranslateText(textToTranslate);
         Assertions.assertEquals("Всем Привет!", translateTextResponse.getText().get(0));
