@@ -1,4 +1,4 @@
-group 'test-framework-nobdd'
+group 'test-framework-nobdd-jj5su'
 version '1.0-SNAPSHOT'
 
 apply plugin: 'java'
